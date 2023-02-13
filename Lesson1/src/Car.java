@@ -21,22 +21,26 @@
 */
 
 public class Car {
-    String model;
-    int year;
-    double price;
-    String color;
-    int power;
-    boolean status;
-    Car(String model, int year, double price, String color, int power){
+    private String model;
+    private int year;
+    private double price;
+    private String color;
+    private int power;
+    private boolean status;
+    private String logo;
+
+    Car(String model, int year, double price, String color, int power, String logo) {
         this.model = model;
         this.year = year;
         this.price = price;
         this.color = color;
         this.power = power;
         this.status = false;
+        this.logo = logo;
     }
-    public void getInfo(){
-        System.out.println(model + " " + year + " " + price + " " + color + " " + power);
+
+    public void getInfo() {
+        System.out.println(model + " " + year + " " + price + " " + color + " " + power + " " + logo);
     }
 
     public String getModel() {
@@ -63,6 +67,10 @@ public class Car {
         return status;
     }
 
+    public String getLogo() {
+        return logo;
+    }
+
     public void setModel(String model) {
         this.model = model;
     }
@@ -87,20 +95,38 @@ public class Car {
         this.status = status;
     }
 
-    public void powerCar(){
+    public void setLogo(String logo) {
+        this.logo = logo;
+    }
+
+    public void powerCar() {
         status = true;
-        System.out.println( "Автомобиль заведен");
+        System.out.println("Автомобиль заведен");
     }
-    public void stopCar(){
+
+    public void stopCar() {
         status = false;
-        System.out.println( "Автомобиль остановлен");
+        System.out.println("Автомобиль остановлен");
     }
-    public void road(String adress){
-        if (status == false){
-            System.out.println( "Автомобиль стоит");
+
+    public void road(String adress) {
+        if (status == false) {
+            System.out.println("Автомобиль стоит");
+        } else {
+            System.out.println("Мы едем на + adress");
         }
-        else {
-        System.out.println( "Мы едем на + adress");
+    }
+
+    public boolean compareCar(Car secondcar) {
+        if (!this.model.equals(secondcar.getModel())) {
+            System.out.println("Машины разные");
+            return false;
         }
+        if (!this.logo.equals(secondcar.getLogo())) {
+            System.out.println("Машины разные");
+            return false;
+        }
+        System.out.println("Машины одиноаковые!");
+        return true;
     }
 }
