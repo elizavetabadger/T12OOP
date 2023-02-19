@@ -1,22 +1,22 @@
 public class Product {
-    private String product;
-    private double price;
+    String name;
+    double price;
 
-    public Product(String product, double price){
-        this.product = product;
+    public Product(String name, double price){
+        this.name = name;
         this.price = price;
     }
 
-    public String getProduct() {
-        return product;
+    public String getName() {
+        return name;
     }
 
     public double getPrice() {
         return price;
     }
 
-    public void setProduct(String product) {
-        this.product = product;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public void setPrice(double price) {
@@ -26,7 +26,7 @@ public class Product {
     @Override
     public String toString() {
         return "Product{" +
-                "product='" + product + '\'' +
+                "name='" + name + '\'' +
                 ", price=" + price +
                 '}';
     }
