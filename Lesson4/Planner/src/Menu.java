@@ -22,14 +22,4 @@ public class Menu {
         return scanner.nextLine();
     }
 
-    public String selectSaveType() {
-        System.out.print("""
-                1. Записать в XML
-                2. Вернуться в меню
-
-                0. Выход
-                """+ "\n");
-        return scanner.nextLine();
-
-    }
 }
