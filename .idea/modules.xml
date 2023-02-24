@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Lesson4/Animals/Animals.iml" filepath="$PROJECT_DIR$/Lesson4/Animals/Animals.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson4/Box/Box.iml" filepath="$PROJECT_DIR$/Lesson4/Box/Box.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson3/Car/Car.iml" filepath="$PROJECT_DIR$/Lesson3/Car/Car.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson5/GuideStudents/GuideStudents.iml" filepath="$PROJECT_DIR$/Lesson5/GuideStudents/GuideStudents.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson1/Lesson1.iml" filepath="$PROJECT_DIR$/Lesson1/Lesson1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson2/Lesson2.iml" filepath="$PROJECT_DIR$/Lesson2/Lesson2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson3/Lesson3.iml" filepath="$PROJECT_DIR$/Lesson3/Lesson3.iml" />
@@ -14,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/Lesson4/Planner/Planner.iml" filepath="$PROJECT_DIR$/Lesson4/Planner/Planner.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson2/Task/Task.iml" filepath="$PROJECT_DIR$/Lesson2/Task/Task.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lesson1/Task1/Task1.iml" filepath="$PROJECT_DIR$/Lesson1/Task1/Task1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson5/Calculator/calculator.iml" filepath="$PROJECT_DIR$/Lesson5/Calculator/calculator.iml" />
     </modules>
   </component>
 </project>
